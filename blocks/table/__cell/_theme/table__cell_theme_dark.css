@@ -1,0 +1,12 @@
+.table__cell_theme_dark {
+  color: white;
+  display: flex;
+  width: 200px;
+  margin-top: 0;
+  margin-bottom: 80px;
+  flex-wrap: wrap;
+}
+
+.table__cell_theme_dark:nth-last-child(-n+5) {
+  margin-bottom: 0;
+}
