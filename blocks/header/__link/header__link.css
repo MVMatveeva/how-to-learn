@@ -6,11 +6,7 @@
   text-decoration: none;
 }
 
-.header__link:visited {
-  color: #2f80ed;
-  text-decoration: none;
-}
-
 .header__link:hover {
   opacity: 0.5;
+  transition: opacity 0.5s ease-in;
 }
